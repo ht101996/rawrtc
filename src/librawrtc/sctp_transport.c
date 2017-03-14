@@ -18,6 +18,7 @@
 
 #define DEBUG_MODULE "sctp-transport"
 //#define RAWRTC_DEBUG_MODULE_LEVEL 7 // Note: Uncomment this to debug this module only
+#define SCTP_DEBUG
 #include "debug.h"
 
 // SCTP outgoing message context (needed when buffering)

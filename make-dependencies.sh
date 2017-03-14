@@ -26,7 +26,7 @@ LIBREW_GIT="https://github.com/rawrtc/rew.git"
 LIBREW_BRANCH="gather_without_role"
 LIBREW_PATH="rew"
 USRSCTP_GIT="https://github.com/rawrtc/usrsctp.git"
-USRSCTP_BRANCH="usrsctpForNeat"
+USRSCTP_BRANCH="rawrtc-issue-3"
 USRSCTP_PATH="usrsctp"
 
 # Prefix
