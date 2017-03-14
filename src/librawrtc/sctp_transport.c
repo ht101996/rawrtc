@@ -6,6 +6,7 @@
 #if (RAWRTC_DEBUG_LEVEL >= 7)
     #define SCTP_DEBUG
 #endif
+#define SCTP_DEBUG
 #include <usrsctp.h> // usrsctp*
 #include <rawrtc.h>
 #include "main.h"
@@ -18,7 +19,6 @@
 
 #define DEBUG_MODULE "sctp-transport"
 //#define RAWRTC_DEBUG_MODULE_LEVEL 7 // Note: Uncomment this to debug this module only
-#define SCTP_DEBUG
 #include "debug.h"
 
 // SCTP outgoing message context (needed when buffering)
